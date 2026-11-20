@@ -1,0 +1,11 @@
+#lang info
+(define collection "waterloo-style-drracket-for-cs")
+(define version "0.1")
+(define pkg-desc "Waterloo-style parenthesis colors by nesting depth in DrRacket, for CS courses")
+(define pkg-authors '(yyheroRU))
+(define license 'MIT)
+(define deps '("base" "drracket" "gui-lib" "syntax-color-lib"))
+(define drracket-tools (list (list "tool.rkt")))
+(define drracket-tool-names (list "Waterloo Style"))
+(define drracket-tool-icons (list #f))
+(define drracket-tool-urls (list #f))
